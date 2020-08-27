@@ -7,6 +7,7 @@ body {
   height: 100vh;
   box-sizing: border-box;
 }
+
 .header {
   background: url("/Manav/images/pic02.jpg");
   width: auto;
@@ -15,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .quote {
   background-color: rgb(202, 199, 199);
   display: flex;
@@ -24,6 +26,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .quote > h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 250;
@@ -33,9 +36,9 @@ body {
   padding: 20px;
   z-index: 1;
   margin: 0;
-
   position: relative;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -67,6 +70,7 @@ body {
   box-shadow: 2px 2px 5px #1e2122;
   font-family: "Roboto", sans-serif;
 }
+
 .card1 > .title1 {
   text-transform: uppercase;
   font-weight: 100;
@@ -104,6 +108,7 @@ body {
   font-family: "Roboto", sans-serif;
   z-index: 1;
 }
+
 .card2 > .title2 {
   text-transform: uppercase;
   font-weight: 100;
