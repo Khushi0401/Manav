@@ -25,6 +25,7 @@ body {
   align-content: center;
   align-items: center;
   justify-content: center;
+  padding: 0 50px;
 }
 
 .quote > h1 {
@@ -35,7 +36,6 @@ body {
   background-color: white;
   padding: 20px;
   z-index: 1;
-  margin: 0;
   position: relative;
 }
 
@@ -121,4 +121,39 @@ body {
   font-size: 1rem;
   padding: 20px 50px;
   font-weight: 550;
+}
+
+@media (max-width: 700px) {
+  .first-img {
+    left: 0;
+    height: auto;
+    width: 50vh;
+  }
+  .card1 {
+    left: 0;
+    height: auto;
+    width: 50vh;
+  }
+  .second-img {
+    left: 0;
+    height: auto;
+    width: 50vh;
+  }
+  .card2 {
+    left: 0;
+    height: auto;
+    width: 50vh;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .quote > h1 {
+    margin-bottom: 100px;
+  }
+  .card1 > .body1 {
+    padding: 10px;
+  }
+  .card2 > .body2 {
+    padding: 10px;
+  }
 }
